@@ -1,0 +1,98 @@
+*{
+  
+    padding: 0%;
+}
+
+body{
+    background-color:  rgb(15, 14, 14);
+    color: white;
+    text-align: center;
+    margin-top: 10rem;
+    
+
+}
+
+.heading{
+    width: 200px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+
+}
+
+h1{
+   
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+    border: solid 2px rgb(224, 24, 24);
+    border-radius: 8px;
+}
+
+.button{
+    display: inline-block;
+    width: 150px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+    margin: 20px;
+    margin: 10px;
+    border: solid 2px rgb(24, 224, 34);
+    border-radius: 8px;
+    height: 25px;
+}
+
+.button:hover  {
+
+   
+  box-shadow: 5px 10px #3b5fd4;
+}
+
+
+
+
+@media only screen and (max-width: 914px){
+    
+body{
+    background-color:  rgb(12, 11, 11);
+    color: white;
+    text-align: center;
+    margin-top: 8rem;
+    
+
+}
+
+.heading{
+    width: 200px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+
+}
+
+h1{
+   
+    display: inline-block;
+    width: 70px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+    margin: 10px;
+    border: solid 2px rgb(224, 24, 24);
+    border-radius: 8px;
+}
+
+.button{
+    display: inline-block;
+    width: 100px;
+    background-color: rgb(247, 243, 243);
+    color: black;
+    margin: 10px;
+    border: solid 2px rgb(24, 224, 34);
+    border-radius: 8px;
+}
+
+h2:hover  {
+
+   
+    box-shadow: 5px 10px #3b5fd4;
+  }
+
+}
